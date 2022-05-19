@@ -111,4 +111,4 @@ else:
         if(num1==7):
             print("O número é igual a 7!")
     else:
-        print("O valor é menor que 5.")
+        print("O valor é menor que 4.")
