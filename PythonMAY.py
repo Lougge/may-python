@@ -101,7 +101,7 @@ if(numero1<=numero2):#operador de menor ou igual a
 if(numero1>=numero2):#operador de maior ou igual a
     print("O número %d é maior ou igual a %d." %(numero1,numero2))
 """
-print(type(2) is int)
+"""print(type(2) is int)
 num1=int(input("Digite um número:"))
 if(num1>10):
     print("O valor é maior que 10!")
@@ -111,4 +111,37 @@ else:
         if(num1==7):
             print("O número é igual a 7!")
     else:
-        print("O valor é menor que 4.")
+        print("O valor é menor que 5.")"""
+"""QUESTAO1
+num1=int(input("Digite um número:"))
+if(num1==0):
+    print("O número é igual a 0!")
+if(num1<0):
+    print("O número %d é negativo" %num1)
+if(num1>0):
+    print("O número %d é positivo" %num1)
+"""
+"""QUESTAO2
+num1=int(input("Digite um número:"))
+if(num1%2==0):
+    print("O número %d é par!" %num1)
+else:
+    print("O número %d é impar!" %num1)
+"""
+num1=int(input("digite um número:"))
+num2=int(input("digite outro número:"))
+if(num1>num2):
+   print("%d é maior" %(num1))
+else:
+    print("%d é maior" %(num2))
+#QUESTAO 4
+num3=int(input("digite sua idade:"))
+if(num3>=18):
+  print("você é maior de idade hehe")
+else:
+  print("você é menor de idade tururu")
+#QUESTAO 5
+num4=int(input("digite o ano que você nasceu:"))
+num5=int(input("digite o ano que sua mãe nasceu:"))
+print("Dua mãe lhe teve com  %d anos," %(num4-num5) + "já você tem: %d anos" %(2022-num4))
+#QUESTAO 6
