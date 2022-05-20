@@ -145,3 +145,11 @@ num4=int(input("digite o ano que você nasceu:"))
 num5=int(input("digite o ano que sua mãe nasceu:"))
 print("Dua mãe lhe teve com  %d anos," %(num4-num5) + "já você tem: %d anos" %(2022-num4))
 #QUESTAO 6
+print("-"*50)
+#QUESTAO 7
+num6=int(input("Digite um número:"))
+if(num6%2==0):
+    print("Este número é par!")
+else:
+    print("Este número é ímpar!")
+#QUESTÃO 8
