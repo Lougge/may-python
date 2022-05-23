@@ -128,6 +128,7 @@ if(num1%2==0):
 else:
     print("O número %d é impar!" %num1)
 """
+"""
 num1=int(input("digite um número:"))
 num2=int(input("digite outro número:"))
 if(num1>num2):
@@ -144,8 +145,8 @@ else:
 num4=int(input("digite o ano que você nasceu:"))
 num5=int(input("digite o ano que sua mãe nasceu:"))
 print("Dua mãe lhe teve com  %d anos," %(num4-num5) + "já você tem: %d anos" %(2022-num4))
-#QUESTAO 6
-print("-"*50)
+#QUESTAO 6 
+print("caractere a ser multiplicado - "*50)
 #QUESTAO 7
 num6=int(input("Digite um número:"))
 if(num6%2==0):
@@ -153,3 +154,46 @@ if(num6%2==0):
 else:
     print("Este número é ímpar!")
 #QUESTÃO 8
+num7=int(input("Digite um número:"))
+num8=int(input("Digite outro número:"))
+if(num7>num8):
+    print("O número %d é maior que %d" %(num7, num8))
+else:
+    print("O número %d é maior que %d" %(num8, num7))
+if(num7==num8):
+    print("Os números são iguais")
+#QUESTAO 9
+num=15.5
+if type(num)==int:
+    print("Este número é inteiro")
+else:
+    print("Este número NÃO é inteiro!")
+#QUESTÃO 10
+#res = isinstance(10, str)
+#print(res)
+val= input("Digite algo:")
+if type(val)==str:
+    print("É uma string")
+else:
+    print("Não é uma string, sorry")
+#QUESTAO 11
+num9=float(input("Digite um número:"))
+if type(num9)==float:
+    print("Este número é decimal")
+else:
+    print("Não é decimal")"""
+#QUESTAO 12:
+num10=float(input("Digite um número:"))
+if (num10%1==0):
+    print("Este número é inteiro")
+else:
+    print("É decimal")
+#QUESTAO 13:  Faça um algoritmo que leia três números e imprima na tela o maior deles.
+num11=int(input("Digite um número:"))
+num12=int(input("Digite outro número:"))
+num13=int(input("Digite mais um número:"))
+if(num11>num12>num13):
+    print("O %d é maior que %d e do que %d" %(num11, num12, num13))
+else:
+    print("")
+if(num12>num13>num11):
