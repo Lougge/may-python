@@ -188,7 +188,7 @@ if (num10%1==0):
     print("Este número é inteiro")
 else:
     print("É decimal")
-#QUESTAO 13:  Faça um algoritmo que leia três números e imprima na tela o maior deles."""
+#QUESTAO 13:  Faça um algoritmo que leia três números e imprima na tela o maior deles.
 num11=float(input("Digite um número:"))
 num12=float(input("Digite outro número:"))
 num13=float(input("Digite mais um número:"))
@@ -198,5 +198,14 @@ elif(num12>num13):
     maior=num12
 if(num13>num11):
     maior=num13
-print("O maior número é:", maior)
-#QUESTAO 14: Faça um algoritmo que leia três números e imprima-os em ordem crescente.
+print("O maior número é:", maior)"""
+#ATALHOS MATEMATICOS:
+#x=(x+y) Assim ele vira com += :
+x=10
+x+=2
+print(x)
+#Tal como: -=   *=   /=  %=
+#ATRIBUIÇÃO MÚLTIPLA:
+a=10
+b=5
+a, b = b, a  #isso faz com que os valores se inverta
