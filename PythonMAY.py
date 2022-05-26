@@ -199,7 +199,7 @@ elif(num12>num13):
 if(num13>num11):
     maior=num13
 print("O maior número é:", maior)"""
-#ATALHOS MATEMATICOS:
+"""#ATALHOS MATEMATICOS:
 #x=(x+y) Assim ele vira com += :
 x=10
 x+=2
@@ -209,3 +209,10 @@ print(x)
 a=10
 b=5
 a, b = b, a  #isso faz com que os valores se inverta
+#ATRIBUIÇÃO CONDICIONAL:
+#<variavel>=<valor1> if (true) else <valor2>
+x=10
+texto= "sim" if x == 10 else "não"
+print(texto)"""
+#ITERADORES: Loop (repetir qnd tal condição for atendida)/ controle de fluxo:
+
