@@ -214,5 +214,4 @@ a, b = b, a  #isso faz com que os valores se inverta
 x=10
 texto= "sim" if x == 10 else "não"
 print(texto)"""
-#ITERADORES: Loop (repetir qnd tal condição for atendida)/ controle de fluxo:
-
+#ITERADORES: Loop (repetir qnd tal condição for atendida)/ controle de fluxo/ WHILE(enqto)
