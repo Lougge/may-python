@@ -228,10 +228,10 @@ for c in "mayara": #a lista é o ciclo -> execução de um elemento
 ]x[ intervalo aberto 
 x[,]y 
 0,  4
-0 [1,2,3] 4"""
+0 [1,2,3] 4
 for variavel in range(0,10,2):
     print(variavel)
 thislist = [0, 10, 2]
 print(thislist)
-range(0,10,2)
-list(range)
+print(list(range(0,10,2)))"""
+print(list(range(10)))
