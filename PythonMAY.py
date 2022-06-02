@@ -215,3 +215,13 @@ x=10
 texto= "sim" if x == 10 else "não"
 print(texto)"""
 #ITERADORES: Loop (repetir qnd tal condição for atendida)/ controle de fluxo/ WHILE(enqto)
+"""x=0
+while(x<=5):
+    print(x)
+    x+=1
+else:
+    print("agora é 6")
+#USANDO O FOR PARA LOOP (EXECUTAR N INSTR. EM INTV. PRÉ DEFINIDO)
+#for (var) in (list):"""
+for c in "mayara": #a lista é o ciclo -> execução de um elemento
+    print(c)
