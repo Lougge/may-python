@@ -120,15 +120,13 @@ if(num1<0):
     print("O número %d é negativo" %num1)
 if(num1>0):
     print("O número %d é positivo" %num1)
-"""
-"""QUESTAO2
+
+QUESTAO2
 num1=int(input("Digite um número:"))
 if(num1%2==0):
     print("O número %d é par!" %num1)
 else:
     print("O número %d é impar!" %num1)
-"""
-"""
 num1=int(input("digite um número:"))
 num2=int(input("digite outro número:"))
 if(num1>num2):
@@ -214,8 +212,8 @@ a, b = b, a  #isso faz com que os valores se inverta
 x=10
 texto= "sim" if x == 10 else "não"
 print(texto)"""
-#ITERADORES: Loop (repetir qnd tal condição for atendida)/ controle de fluxo/ WHILE(enqto)
-"""x=0
+"""#ITERADORES: Loop (repetir qnd tal condição for atendida)/ controle de fluxo/ WHILE(enqto)
+x=0
 while(x<=5):
     print(x)
     x+=1
@@ -231,4 +229,9 @@ for c in "mayara": #a lista é o ciclo -> execução de um elemento
 x[,]y 
 0,  4
 0 [1,2,3] 4"""
-list(range(0,10,2))
+for variavel in range(0,10,2):
+    print(variavel)
+thislist = [0, 10, 2]
+print(thislist)
+range(0,10,2)
+list(range)
