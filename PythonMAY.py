@@ -222,6 +222,13 @@ while(x<=5):
 else:
     print("agora é 6")
 #USANDO O FOR PARA LOOP (EXECUTAR N INSTR. EM INTV. PRÉ DEFINIDO)
-#for (var) in (list):"""
+#for (var) in (list):
 for c in "mayara": #a lista é o ciclo -> execução de um elemento
     print(c)
+#RANGE (gerar uma lista que tenha uma série de numeros em um intevalo determinado)
+#range ([start], stop[,step])
+]x[ intervalo aberto 
+x[,]y 
+0,  4
+0 [1,2,3] 4"""
+list(range(0,10,2))
