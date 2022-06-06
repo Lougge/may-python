@@ -233,5 +233,23 @@ for variavel in range(0,10,2):
     print(variavel)
 thislist = [0, 10, 2]
 print(thislist)
-print(list(range(0,10,2)))"""
+print(list(range(0,10,2)))
 print(list(range(10)))
+print(list(range(100,0,-10)))
+print(list(range(-100,0,10)))
+for i in range(10):
+    print(i)
+for y in range(-10,0,2):
+    print(y)
+#BREAK= interrompe a instrução
+i=10
+while(i<100):
+    i=i+1
+    if(True):
+        break"""
+print("antes do loop")
+for item in range(10):
+    print(item)
+    if(item==6): #quando chegou no 6 ele para
+        break
+print("depois do loop")
