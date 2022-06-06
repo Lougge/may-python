@@ -246,10 +246,27 @@ i=10
 while(i<100):
     i=i+1
     if(True):
-        break"""
+        break
 print("antes do loop")
 for item in range(10):
     print(item)
     if(item==6): #quando chegou no 6 ele para
         break
 print("depois do loop")
+#CONTINUE
+i=10
+while(i<100):
+    i=i+1
+    if(True):
+        continue"""
+print()
+print("inicio")
+j=0
+while(j<10):
+    j+=1
+    if(j%2==0):
+        continue
+    print(j)
+else:
+    print("else")
+print("fim")
