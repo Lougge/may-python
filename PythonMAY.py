@@ -258,7 +258,7 @@ i=10
 while(i<100):
     i=i+1
     if(True):
-        continue"""
+        continue
 print()
 print("inicio")
 j=0
@@ -266,7 +266,24 @@ while(j<10):
     j+=1
     if(j%2==0):
         continue
+    if(j>5):
+        break
     print(j)
 else:
     print("else")
-print("fim")
+print("fim")"""
+"""#QUESTAO 1:
+for i in range(1,11):
+    print(i)
+#QUESTAO 2:
+num1=int(input("Digite o primeiro número do seu intervalo:"))
+num2=int(input("Digite o segundo número do seu intervalo:"))
+for n in range(num1,(num2+1)):
+    print(n)
+#QUESTAO 3:
+for j in range(10,0,-1):
+    print(j)
+#QUESTAO 4:
+for i in range(0,101,2):
+    print(i)"""
+#QUESTAO 5:
