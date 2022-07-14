@@ -272,18 +272,41 @@ while(j<10):
 else:
     print("else")
 print("fim")"""
-"""#QUESTAO 1:
+"""#QUESTAO 1: Faça um algoritmo que imprima os números no intervalo entre 1 e 100
 for i in range(1,11):
     print(i)
-#QUESTAO 2:
+#QUESTAO 2: Evolua o algoritmo no qual imprimimos os números num intervalo pré-definido para um algoritmo que pergunte ao usuário qual o intervalo que o mesmo deseja que seja impresso:
 num1=int(input("Digite o primeiro número do seu intervalo:"))
 num2=int(input("Digite o segundo número do seu intervalo:"))
 for n in range(num1,(num2+1)):
     print(n)
-#QUESTAO 3:
+#QUESTAO 3: Faça um algoritmo que imprima os números no intervalo entre 1 e 10 em ordem inversa
 for j in range(10,0,-1):
     print(j)
-#QUESTAO 4:
+#QUESTAO 4: Faça um algoritmo que imprima os números pares entre 0 e 100
 for i in range(0,101,2):
-    print(i)"""
-#QUESTAO 5:
+    print(i)
+#QUESTAO 5: Faça um algoritmo que some a quantidade de números pares encontrados no intervalo entre 0 e 100
+a=int(0)
+for i in range(0,100):
+    if(i%2==0):
+        a+=1
+print(a)
+#QUESTAO 6:Faça um algoritmo que imprima os números primos entre 0 e 100:
+for i in range(0,100):
+    for j in range(i-1,0,-1):
+        if(i%j == 0):
+            break
+        if(i%j > 0):
+                if(j==2):
+                    print(i)
+    if(i==2):
+        print(i)
+#QUESTAO 7:Faça um algoritmo que calcule os número primos num intervalo pré-determinado pelo usuário:
+#QUESTAO 8:Faça um algoritmo que imprima os valores no intervalo definido pelo usuário 
+# e permita que o mesmo possa definir 3 números que deverão ser ignorados,
+# ou seja, que não serão impressos na tela:
+
+#QUESTAO 9:Faça um algoritmo que imprima a frase "estou em looping" e, em seguida, solicite ao usuário digitar uma letra.
+# Caso a letra seja o "q" finalize a aplicação.
+# Do contrário, imprima novamente a mesma frase até que o caractere "q" seja enviado:"""
