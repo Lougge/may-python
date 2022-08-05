@@ -310,3 +310,17 @@ for i in range(0,100):
 #QUESTAO 9:Faça um algoritmo que imprima a frase "estou em looping" e, em seguida, solicite ao usuário digitar uma letra.
 # Caso a letra seja o "q" finalize a aplicação.
 # Do contrário, imprima novamente a mesma frase até que o caractere "q" seja enviado:"""
+"""lista=[7, 2, 4, 9]
+print(lista[0]+lista[2])
+lista=list("Mayara")
+print(lista)
+string="O BR é massa, O BR é 13"
+lista_1=string.split(" ")
+print(lista_1)
+for valor in lista_1:
+    print(f"{lista_1.count(valor)}")
+    print(valor)"""
+string="O bolo é bom, porém mto grande"
+lista_2=string.split(',')
+for valor in lista_2:
+    print(f'A palavra {valor} apareceu {lista_2.count(valor)}x na frase')
