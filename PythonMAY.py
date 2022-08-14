@@ -319,8 +319,31 @@ lista_1=string.split(" ")
 print(lista_1)
 for valor in lista_1:
     print(f"{lista_1.count(valor)}")
-    print(valor)"""
+    print(valor)
+
+string="O bolo é bom, porém mto grande"
+lista_2=string.split(',')
+#for valor in lista_2:
+ #   print(f'A palavra {valor} apareceu {lista_2.count(valor)}x na frase')
+
+palavra=''
+contagem=0
+for valor in lista_2:
+    qtd_vezes=lista_2.count(valor)
+
+    if qtd_vezes > contagem:
+        contagem=qtd_vezes
+        palavra=valor
+print(f"A palavra que apareceu mais vezes foi {palavra}({contagem}x)")"""
 string="O bolo é bom, porém mto grande"
 lista_2=string.split(',')
 for valor in lista_2:
-    print(f'A palavra {valor} apareceu {lista_2.count(valor)}x na frase')
+    print(valor.strip().capitalize()) #STRIP REMOVE OS ESPAÇOS
+
+string2="Sona é uma campeã muda, LeeSin é cego e Seraphine surda"
+lista3=string2.split(" ") #JOIN é pra juntar tudo
+variavel=",".join(lista3)
+print(lista3)
+print(variavel)
+
+
