@@ -334,7 +334,7 @@ for valor in lista_2:
     if qtd_vezes > contagem:
         contagem=qtd_vezes
         palavra=valor
-print(f"A palavra que apareceu mais vezes foi {palavra}({contagem}x)")"""
+print(f"A palavra que apareceu mais vezes foi {palavra}({contagem}x)")
 string="O bolo é bom, porém mto grande"
 lista_2=string.split(',')
 for valor in lista_2:
@@ -346,4 +346,31 @@ variavel=",".join(lista3)
 print(lista3)
 print(variavel)
 
+string5="O morango é vermelho" #ENUMERATE elementos de uma lista
+lista4=string5.split(' ')#tem ESPAÇO
+for indice, valor in enumerate(lista4):
+    print(indice,valor) #valor tbm poderia ser lista[indice]
+lista5=['Maitê','Mayara','Alencar'] #desempacotamento de lista
+print('Mayara')"""
+lista=[ #<-lista convertida
+    [1,2,],
+    [3,4,],
+    [5,6,],
+]
+"""print(lista[2][1])
+enumerada=enumerate(lista)
+print(list(enumerada)) #ISSO VIRA UMA TUPLA = [(0, [1,2],(1,[3,4]),(2,[5,6]))]
+#O indice é 0 "[(0,["  // O indice 1 é "(1,[" // O indice 2 é "(2,["
+#O valor de 0 é "[1,2]" // O valor de 1 é "[3,4]" // O valor de 2 é "[5,6]"
+#pode printar -> enumerada=list(enumerate(lista)) 
+#                print(enumerada[1][1] caso tenha outro numero :[2])
 
+for v1, v2 in enumerate(lista,25): #FAZ COMEÇAR A NUMERAÇÃO NO 25 <- ele é o parametro START
+    print(v1, v2)
+#ou  
+for v1 in enumerate(lista, 25):
+    VALOR_ENUMERADO, MINHA_LISTA = v1 #DESEMPACOTAMENTO DE LISTA
+    print(VALOR_ENUMERADO,MINHA_LISTA)"""
+n1,n2, *outra_lista = lista #sem o OUTRA_LISTA dá "ValueError: too many values to unpack", pois tem mais valores do q pedido
+print(n1)
+print(n2,outra_lista) #A OUTRA_LISTA VEM ACOMPANHADA DE [CHAVES]
