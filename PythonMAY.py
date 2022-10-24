@@ -351,13 +351,13 @@ lista4=string5.split(' ')#tem ESPAÇO
 for indice, valor in enumerate(lista4):
     print(indice,valor) #valor tbm poderia ser lista[indice]
 lista5=['Maitê','Mayara','Alencar'] #desempacotamento de lista
-print('Mayara')"""
+print('Mayara')
 lista=[ #<-lista convertida
     [1,2,],
     [3,4,],
     [5,6,],
 ]
-"""print(lista[2][1])
+print(lista[2][1])
 enumerada=enumerate(lista)
 print(list(enumerada)) #ISSO VIRA UMA TUPLA = [(0, [1,2],(1,[3,4]),(2,[5,6]))]
 #O indice é 0 "[(0,["  // O indice 1 é "(1,[" // O indice 2 é "(2,["
@@ -370,7 +370,17 @@ for v1, v2 in enumerate(lista,25): #FAZ COMEÇAR A NUMERAÇÃO NO 25 <- ele é o
 #ou  
 for v1 in enumerate(lista, 25):
     VALOR_ENUMERADO, MINHA_LISTA = v1 #DESEMPACOTAMENTO DE LISTA
-    print(VALOR_ENUMERADO,MINHA_LISTA)"""
-n1,n2, *outra_lista = lista #sem o OUTRA_LISTA dá "ValueError: too many values to unpack", pois tem mais valores do q pedido
+    print(VALOR_ENUMERADO,MINHA_LISTA)
+n1,n2, *outra_lista = lista #sem o *OUTRA_LISTA ou *_ dá "ValueError: too many values to unpack", pois tem mais valores do q pedido
 print(n1)
-print(n2,outra_lista) #A OUTRA_LISTA VEM ACOMPANHADA DE [CHAVES]
+print(n2,outra_lista) #A OUTRA_LISTA VEM ACOMPANHADA DE [CHAVES]"""
+#OPERADOR TERNÁRIO -> VAI ENCURTAR PARA A MSM LINHA OS CODIGOS, pode usar () se tiver +1 condição
+logged_user = False
+"""if logged_user: #==True 
+    msg='Usuário logado.'
+else:
+    msg='Usuário precisa fazer login.'
+print(msg)"""
+#VIRA ISSO:
+msg='Usuário logado.' if (logged_user) else 'Usuário precisa fazer login.'
+print(msg)
