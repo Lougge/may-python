@@ -413,6 +413,15 @@ print(2*2)
 print(22+10+54+48+0+12+15+0+0+4)
 print(11-(297%11)) #deu 11, então 11>9= 0"""
 novo_cpf=CPF_ALEATORIO[:-2]
+"""#s[i:j]
+#A negative index is relative to the end of the String 
+#like making a substitution from the negative index to "len(text) + i".
+#s[i:j]
+# he slice of s from i to j is defined as the sequence of items.
+# If i or j is greater than len(s), use len(s). 
+# If i is omitted or None, use 0. 
+# If j is omitted or None, use len(s). 
+# If i is greater than or equal to j, the slice is empty."""
 soma1=0
 soma2=0
 
@@ -422,3 +431,15 @@ for I, V in enumerate(range(10,1,-1)):
 if digito_1 > 9:
     digito_1=0
 novo_cpf += str(digito_1)
+
+for I,V in enumerate(range(11,1,-1)):
+    soma2=soma2+int(novo_cpf[I])*int(V)
+    digito_2=11-(soma2%11)
+if digito_2 > 9:
+    digito_2=0
+novo_cpf += str(digito_2)
+
+if novo_cpf == CPF_ALEATORIO:
+    print("CPF OK")
+else:
+    print("NOT OKAY")
