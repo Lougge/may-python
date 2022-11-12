@@ -373,14 +373,52 @@ for v1 in enumerate(lista, 25):
     print(VALOR_ENUMERADO,MINHA_LISTA)
 n1,n2, *outra_lista = lista #sem o *OUTRA_LISTA ou *_ dá "ValueError: too many values to unpack", pois tem mais valores do q pedido
 print(n1)
-print(n2,outra_lista) #A OUTRA_LISTA VEM ACOMPANHADA DE [CHAVES]"""
+print(n2,outra_lista) #A OUTRA_LISTA VEM ACOMPANHADA DE [CHAVES]
 #OPERADOR TERNÁRIO -> VAI ENCURTAR PARA A MSM LINHA OS CODIGOS, pode usar () se tiver +1 condição
 logged_user = False
-"""if logged_user: #==True 
+if logged_user: #==True 
     msg='Usuário logado.'
 else:
     msg='Usuário precisa fazer login.'
-print(msg)"""
+print(msg)
 #VIRA ISSO:
 msg='Usuário logado.' if (logged_user) else 'Usuário precisa fazer login.'
 print(msg)
+for m, z in enumerate(range(10,1,-1)): #M é como se fosse o contador CRESCENTE e o Z o DECRESCENTE (range([start],stop[,step]))
+    print(m, z)
+for m in range(9):
+    print(m)"""
+CPF_ALEATORIO="21660230020"
+"""print(2*10)
+print(1*9)
+print(6*8)
+print(6*7)
+print(0*6)
+print(2*5)
+print(3*4)
+print(0*3)
+print(0*2)
+print(20+9+48+42+0+10+12+0+0)
+print(11-(141%11))  #deu 2, então é 2
+print(2*11)
+print(1*10)
+print(6*9)
+print(6*8)
+print(0*7)
+print(2*6)
+print(3*5)
+print(0*4)
+print(0*3)
+print(2*2)
+print(22+10+54+48+0+12+15+0+0+4)
+print(11-(297%11)) #deu 11, então 11>9= 0"""
+novo_cpf=CPF_ALEATORIO[:-2]
+soma1=0
+soma2=0
+
+for I, V in enumerate(range(10,1,-1)):
+    soma1=soma1+int(novo_cpf[I])*int(V)
+    digito_1= 11-(soma1%11)
+if digito_1 > 9:
+    digito_1=0
+novo_cpf += str(digito_1)
